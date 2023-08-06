@@ -1,6 +1,6 @@
 'use strict';
 
-  var socket = io('https://mind-mesh.vercel.app/');
+  var socket = io();
   var tools = {};
   var textarea;
   var colorPicked;
