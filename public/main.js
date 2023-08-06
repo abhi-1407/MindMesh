@@ -1,6 +1,3 @@
-'use strict';
-
-(function() {
 
   var socket = io();
   var canvas = document.getElementsByClassName('whiteboard')[0];
@@ -97,4 +94,3 @@
     canvas.height = window.innerHeight;
   }
 
-})();
